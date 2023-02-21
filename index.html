@@ -5,7 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/css/reset.css" />
+		<link rel="stylesheet" href="/css/cssfan.css" />
 		<link rel="stylesheet" href="/css/style.css" />
+
 		<title>Эдита - меховая фабрика</title>
 	</head>
 	<body>
@@ -55,18 +57,35 @@
 			<section class="promo">
 				<div class="container">
 					<div class="promo__inner inner-promo__first">
-						<div class="promo__main promo-main">
-							<img class="promo-main__img" src="images/model-main.jpg" alt="main-model" />
-							<div class="promo-main__desc">
-								<h1 class="promo-main__title">ШУБЫ<br />НА ЛЮБОЙ РАЗМЕР</h1>
-								<p class="promo-main__text">Индивидуальный пошив по модели клиента</p>
-								<a class="promo-main__link" href="#"><span>ЗАКАЖИТЕ ТУТ</span></a>
-							</div>
+						<div class="inner__slider">
 							<div class="promo-main__control promo-main__control-left">
 								<img class="promo-main__arrow" src="images/icons/arrow-left.svg" alt="arrow" />
 							</div>
 							<div class="promo-main__control promo-main__control-right">
 								<img class="promo-main__arrow" src="images/icons/arrow-right.svg" alt="arrow" />
+							</div>
+							<div id="myCarousel" class="carousel">
+								<div class="carousel__slide">
+									<div class="promo__main promo-main">
+										<img class="promo-main__img" src="images/model-sub2.jpg" alt="main-model" />
+										<div class="promo-main__desc">
+											<h1 class="promo-main__title">ШУБЫ<br />НА ЛЮБОЙ РАЗМЕР</h1>
+											<p class="promo-main__text">Индивидуальный пошив по модели клиента</p>
+											<a class="promo-main__link" href="#"><span>ЗАКАЖИТЕ ТУТ</span></a>
+										</div>
+									</div>
+								</div>
+
+								<div class="carousel__slide">
+									<div class="promo__main promo-main">
+										<img class="promo-main__img" src="images/model-main.jpg" alt="main-model" />
+										<div class="promo-main__desc">
+											<h1 class="promo-main__title">ШУБЫ<br />НА ЛЮБОЙ РАЗМЕР</h1>
+											<p class="promo-main__text">Индивидуальный пошив по модели клиента</p>
+											<a class="promo-main__link" href="#"><span>ЗАКАЖИТЕ ТУТ</span></a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 
@@ -111,5 +130,7 @@
 				</div>
 			</section>
 		</main>
+
+		<script type="module" src="js/slider.js"></script>
 	</body>
 </html>

@@ -228,16 +228,19 @@ body {
 	gap: 30px 30px;
 }
 .promo-main {
-	position: relative;
 	flex-basis: 770px;
 	height: 611px;
 	overflow: hidden;
+}
+.inner__slider {
+	position: relative;
+	flex-basis: 770px;
 }
 .promo-main__img {
 	width: 150%;
 	height: auto;
 	object-fit: cover;
-	object-position: -300px -120px;
+	object-position: -250px -120px;
 }
 .promo-main__desc {
 	position: absolute;
@@ -285,6 +288,7 @@ body {
 	letter-spacing: 0.09em;
 }
 .promo-main__control {
+	z-index: 100;
 	position: absolute;
 	width: 35px;
 	height: 35px;
@@ -320,8 +324,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	bottom: 30px;
-	left: 30px;
+	bottom: 35px;
+	left: 65px;
 	width: 170px;
 	height: 160px;
 	padding: 30px;
@@ -332,7 +336,7 @@ body {
 	width: 150%;
 	height: auto;
 	object-fit: cover;
-	object-position: 0px -60px;
+	object-position: 30px -60px;
 }
 
 .promo-sub__title {
@@ -426,4 +430,25 @@ body {
 }
 
 @media all and (max-width: 736px) {
+}
+.carousel {
+	position: relative;
+	--carousel-slide-padding: 0rem;
+	flex-basis: 770px;
+}
+.carousel__slide {
+	width: 100%;
+	object-fit: none;
+	object-position: -200px 0px;
+	max-height: 611px;
+}
+
+.carousel__button.is-next {
+	display: none;
+}
+.carousel__button.is-prev {
+	display: none;
+}
+.content {
+	width: 770px;
 }
