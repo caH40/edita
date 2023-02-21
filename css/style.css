@@ -212,7 +212,7 @@ body {
 .promo {
 	padding-top: 30px;
 	background-color: #f8f8f8;
-	margin-bottom: 100px;
+	margin-bottom: 35px;
 }
 
 .inner-promo__first {
@@ -325,7 +325,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	bottom: 35px;
-	left: 65px;
+	left: 35px;
 	width: 170px;
 	height: 160px;
 	padding: 30px;
@@ -336,7 +336,7 @@ body {
 	width: 150%;
 	height: auto;
 	object-fit: cover;
-	object-position: 30px -60px;
+	object-position: 0px -60px;
 }
 
 .promo-sub__title {
@@ -429,8 +429,7 @@ body {
 	object-position: 0px 0px;
 }
 
-@media all and (max-width: 736px) {
-}
+/* ------------------- promo-slider  ------------------- */
 .carousel {
 	position: relative;
 	--carousel-slide-padding: 0rem;
@@ -452,3 +451,43 @@ body {
 .content {
 	width: 770px;
 }
+
+/* ------------------- advantages  ------------------- */
+.advantages__inner {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 0 5px;
+	padding: 25px 0px;
+}
+.advantages__card {
+	flex-basis: 215px;
+	min-height: 210px;
+	padding: 10px;
+	text-align: center;
+}
+.advantages__img {
+	width: 65px;
+	height: 65px;
+	object-fit: fill;
+	margin-bottom: 10px;
+}
+.advantages__title {
+	font-size: 12px;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-decoration: underline transparent;
+}
+.advantages__text {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.advantages__card:hover .advantages__title {
+	text-decoration: underline;
+	transition: all 0.7s;
+}
+.advantages__card:hover {
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+	transition: all 0.7s;
+}
+/* ------------------- about  ------------------- */
