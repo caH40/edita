@@ -588,7 +588,7 @@ body {
 	width: 100%;
 }
 .advice__slider {
-	margin-bottom: 110px;
+	margin-bottom: 70px;
 }
 .slider__control {
 	position: absolute;
@@ -702,7 +702,71 @@ body {
 	font-size: 24px;
 	color: #b98d0f;
 }
-
 .promo-main__control:hover {
 	background-color: #385588e0;
+}
+/* ------------------- demo  ------------------- */
+.demo {
+	display: flex;
+	margin-bottom: 90px;
+}
+.demo__hall {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: #ffffff;
+	font-weight: 300;
+	text-transform: uppercase;
+	background: url('../images/demo.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 60px 50px 50px;
+	height: 350px;
+	line-height: 1.7;
+	letter-spacing: 0.06em;
+}
+.demo__subtitle {
+	font-size: 14px;
+}
+.demo__title {
+	font-size: 24px;
+}
+.demo__text {
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: none;
+	text-align: center;
+}
+.demo__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	font-size: 14px;
+	padding: 5px;
+	border: 1px solid #ffffff;
+}
+.demo__btn:hover {
+	background-color: #ffffff67;
+	transition: all 0.5s;
+}
+.demo__service {
+	flex-basis: 50%;
+}
+.demo__link {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 350px;
+	padding: 70px 100px 70px;
+	background-color: #e4e4e4;
+	line-height: 1.7;
+	min-width: 438px;
+}
+.demo__icon {
 }
