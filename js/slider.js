@@ -9,8 +9,9 @@ rightArrow.onclick = myCarousel.slideNext;
 leftArrow.onclick = myCarousel.slidePrev;
 
 const productCarousel = new Carousel(document.querySelector('#productCarousel'), {
-	// slidesPerPage: 1,
+	slidesPerPage: 1,
 	Dots: false,
+	center: false,
 });
 
 const leftArrowSlider = document.querySelector('.slider__control-left');
