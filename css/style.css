@@ -430,12 +430,12 @@ body {
 }
 
 /* ------------------- promo-slider  ------------------- */
-.carousel {
+.promo__carousel {
 	position: relative;
-	--carousel-slide-padding: 0rem;
+	padding: 0rem;
 	flex-basis: 770px;
 }
-.carousel__slide {
+.promo__slider {
 	width: 100%;
 	object-fit: none;
 	object-position: -200px 0px;
