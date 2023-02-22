@@ -8,7 +8,7 @@ const rightArrow = document.querySelector('.promo-main__control-right');
 rightArrow.onclick = myCarousel.slideNext;
 leftArrow.onclick = myCarousel.slidePrev;
 
-const productCarousel = new Carousel(document.querySelector('#productCarousel'), {
+const productCarousel = new Carousel(document.querySelector('.product__carousel'), {
 	slidesPerPage: 1,
 	Dots: false,
 	center: false,
