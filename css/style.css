@@ -215,7 +215,8 @@ body {
 .promo {
 	padding-top: 30px;
 	background-color: #f8f8f8;
-	margin-bottom: 35px;
+	padding-bottom: 35px;
+	/* margin-bottom: 35px; */
 }
 
 .inner-promo__first {
@@ -507,7 +508,8 @@ body {
 .about__bg {
 	width: 100%;
 	height: 365px;
-	background-image: url('../images/about-bg.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('../images/about-bg.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1079,6 +1081,7 @@ body {
 	width: 190px;
 	height: 40px;
 	padding-left: 20px;
+	user-select: none;
 }
 .map-footer__link::after {
 	content: '';
