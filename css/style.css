@@ -698,9 +698,23 @@ body {
 	line-height: 1.4;
 	margin-bottom: 5px;
 }
+.slider__text span {
+	display: block;
+	font-size: 12px;
+	color: #9b9b9b;
+}
 .slider__price {
+	position: relative;
 	font-size: 24px;
 	color: #b98d0f;
+}
+.slider__price-old {
+	position: absolute;
+	top: 2px;
+	left: -65px;
+	font-size: 18px;
+	text-decoration: line-through;
+	color: #9b9b9b;
 }
 .promo-main__control:hover {
 	background-color: #385588e0;
@@ -768,5 +782,41 @@ body {
 	line-height: 1.7;
 	min-width: 438px;
 }
-.demo__icon {
+/* ------------------- discounts  ------------------- */
+
+.discounts {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.discounts__title {
+	color: #000000;
+	margin-bottom: 60px;
+}
+.critical {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0em;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.critical__top {
+	top: 20px;
+	left: 20px;
+}
+.critical--red {
+	color: #ffffff;
+	background-color: #c2242d;
+}
+.critical__down {
+	top: 90px;
+	left: 20px;
 }
