@@ -768,5 +768,12 @@ body {
 	line-height: 1.7;
 	min-width: 438px;
 }
-.demo__icon {
+/* ------------------- discounts  ------------------- */
+
+.discounts {
+	text-align: center;
+}
+.discounts__title {
+	color: #000000;
+	margin-bottom: 60px;
 }
