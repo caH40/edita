@@ -856,7 +856,6 @@ body {
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-
 .articles__block-right {
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -864,8 +863,6 @@ body {
 	background-position: center center;
 	background-repeat: no-repeat;
 	color: #000000;
-}
-.articles__block--white {
 }
 .articles__box {
 	display: flex;
@@ -906,4 +903,14 @@ body {
 .articles__link:hover {
 	color: #4d4d4d;
 	transition: all 0.5s;
+}
+/* ------------------- innovation  ------------------- */
+.innovation {
+	padding-top: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.innovation__title {
+	color: #000000;
+	margin-bottom: 60px;
 }
