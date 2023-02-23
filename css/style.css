@@ -492,6 +492,7 @@ body {
 	transition: all 0.7s;
 }
 /* ------------------- about  ------------------- */
+
 .about {
 	margin-bottom: 380px;
 }
@@ -574,7 +575,7 @@ body {
 	background-color: #dfdfdf;
 	transition: all 0.4s;
 }
-/* ------------------- about  ------------------- */
+/* ------------------- advice  ------------------- */
 .advice {
 	text-align: center;
 }
@@ -819,4 +820,89 @@ body {
 .critical__down {
 	top: 90px;
 	left: 20px;
+}
+/* ------------------- articles  ------------------- */
+.articles {
+	padding-top: 60px;
+	padding-bottom: 50px;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+.articles__title {
+	color: #000000;
+	margin-bottom: 40px;
+}
+.articles__inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 0 30px;
+	margin-bottom: 50px;
+}
+.articles__block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 50%;
+	height: 345px;
+	padding: 37px;
+}
+.articles__block-left {
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('../images/about-bg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+.articles__block-right {
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('../images/articles2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #000000;
+}
+.articles__block--white {
+}
+.articles__box {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffffe5;
+	padding: 5px;
+}
+.articles__subtitle {
+	font-size: 24px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+.articles__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000000;
+	width: 170px;
+	height: 50px;
+	font-size: 14px;
+	padding: 5px;
+}
+.articles__btn--white {
+	border: 1px solid #ffffff;
+}
+.articles__btn:hover {
+	background-color: #999999;
+	transition: all 0.5s;
+}
+.articles__link {
+	font-weight: 700;
+	text-decoration: underline;
+	letter-spacing: 0.06px;
+}
+.articles__link {
+	color: #3b3b3b;
 }
