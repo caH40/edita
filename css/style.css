@@ -47,6 +47,7 @@ body {
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
+	user-select: none;
 }
 .up__link__ico {
 	width: 31px;
@@ -115,6 +116,7 @@ body {
 	gap: 0 20px;
 	margin-right: 25px;
 	padding-top: 3px;
+	user-select: none;
 }
 .down__item {
 	text-transform: uppercase;
@@ -146,6 +148,7 @@ body {
 	cursor: pointer;
 	border: none;
 	outline: none;
+	user-select: none;
 }
 .header__button:hover {
 	background-color: #c7c7c7;
@@ -272,6 +275,7 @@ body {
 	height: 50px;
 	justify-content: center;
 	align-items: center;
+	user-select: none;
 }
 .promo-main__link:hover {
 	background-color: #c7c7c7;
@@ -304,6 +308,7 @@ body {
 	height: 100%;
 	object-fit: contain;
 	object-position: 0px 0px;
+	user-select: none;
 }
 .promo-main__control-left {
 	top: 230px;
@@ -566,6 +571,7 @@ body {
 	font-size: 12px;
 	letter-spacing: 0.08em;
 	margin-left: 605px;
+	user-select: none;
 }
 .about__link:hover {
 	background-color: #c7c7c7;
@@ -600,6 +606,7 @@ body {
 	height: 300px;
 	background-color: #888888;
 	cursor: pointer;
+	user-select: none;
 }
 .slider__control:hover {
 	background-color: #616161;
@@ -651,6 +658,7 @@ body {
 	background-color: #253859e0;
 	z-index: 4;
 	transition: ease-in-out 0.4s;
+	user-select: none;
 }
 .slider__item:hover .slider__button {
 	bottom: 20px;
@@ -723,7 +731,7 @@ body {
 /* ------------------- demo  ------------------- */
 .demo {
 	display: flex;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 }
 .demo__hall {
 	flex-basis: 50%;
@@ -764,6 +772,7 @@ body {
 	font-size: 14px;
 	padding: 5px;
 	border: 1px solid #ffffff;
+	user-select: none;
 }
 .demo__btn:hover {
 	background-color: #ffffff67;
@@ -791,7 +800,7 @@ body {
 }
 .discounts__title {
 	color: #000000;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 .critical {
 	position: absolute;
@@ -808,6 +817,7 @@ body {
 	color: #000000;
 	background-color: #ffffff;
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+	user-select: none;
 }
 .critical__top {
 	top: 20px;
@@ -823,14 +833,14 @@ body {
 }
 /* ------------------- articles  ------------------- */
 .articles {
-	padding-top: 60px;
+	padding-top: 70px;
 	padding-bottom: 50px;
 	background-color: #f8f8f8;
 	text-align: center;
 }
 .articles__title {
 	color: #000000;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 .articles__inner {
 	display: flex;
@@ -887,6 +897,7 @@ body {
 	height: 50px;
 	font-size: 14px;
 	padding: 5px;
+	user-select: none;
 }
 .articles__btn--white {
 	border: 1px solid #ffffff;
@@ -906,11 +917,11 @@ body {
 }
 /* ------------------- innovation  ------------------- */
 .innovation {
-	padding-top: 60px;
+	padding-top: 70px;
 	text-align: center;
 	margin-bottom: 60px;
 }
 .innovation__title {
 	color: #000000;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
