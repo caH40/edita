@@ -20,6 +20,10 @@ body {
 	color: #000000;
 	font-size: 14px;
 }
+.wrapper{
+	position: relative;
+	overflow: hidden;
+}
 /* ------------- header ------------- */
 /* ------------- header - top ------------- */
 .header__top {
