@@ -13,10 +13,10 @@ export function showNavigation() {
 	function getNavigation() {
 		if (window.pageYOffset >= headerHeight) {
 			const position = window.pageYOffset + (window.innerHeight - navigationHeight) / 3;
-			navigation.style = 'display: block';
+			navigation.classList.remove('invisible');
 			navigation.style = `top: ${position}px`;
 		} else {
-			navigation.style = 'display: none';
+			navigation.classList.add('invisible');
 		}
 	}
 }
