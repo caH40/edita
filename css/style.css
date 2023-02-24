@@ -21,8 +21,8 @@ body {
 	font-size: 14px;
 }
 /* ------------- header ------------- */
-/* ------------- header - up ------------- */
-.header__up {
+/* ------------- header - top ------------- */
+.header__top {
 	height: 80px;
 	background: linear-gradient(270deg, #253859 0%, #395585 49.98%, #253859 100%);
 	color: #ffffff;
@@ -36,12 +36,12 @@ body {
 	padding: 0px 15px;
 	margin: 0 auto;
 }
-.up__menu {
+.top-header__menu {
 	position: relative;
 	padding-left: 300px;
 	padding-top: 44px;
 }
-.up__list {
+.top-header__list {
 	display: flex;
 	gap: 0 72px;
 	font-size: 15px;
@@ -49,17 +49,17 @@ body {
 	font-weight: 400;
 	user-select: none;
 }
-.up__link__ico {
+.top-header__link__ico {
 	width: 31px;
 	height: 22px;
 	object-fit: fill;
 	object-position: center;
 }
-.up__link {
+.top-header__link {
 	position: relative;
 	border-bottom: 1px solid #ffffff00;
 }
-.up__link::before {
+.top-header__link::before {
 	content: '';
 	position: absolute;
 	background-size: contain;
@@ -70,27 +70,27 @@ body {
 	left: -32px;
 	top: 0;
 }
-.up__link:hover {
+.top-header__link:hover {
 	border-bottom: 1px solid #ffffffff;
 	transition: all 0.4s;
 }
-.up__link:active {
+.top-header__link:active {
 	color: #868686;
 	border-bottom: 1px solid #868686;
 }
-.up__link--1::before {
+.top-header__link--1::before {
 	background-image: url(../images/icons/car.svg);
 }
-.up__link--2::before {
+.top-header__link--2::before {
 	background-image: url(../images/icons/wallet.svg);
 }
-.up__link--3::before {
+.top-header__link--3::before {
 	background-image: url(../images/icons/mails.svg);
 }
-.up__link--4::before {
+.top-header__link--4::before {
 	background-image: url(../images/icons/question.svg);
 }
-.up__link--5::before {
+.top-header__link--5::before {
 	background-image: url(../images/icons/email-icon.svg);
 }
 .header__logo {
@@ -100,35 +100,40 @@ body {
 	left: 0px;
 	top: 20px;
 	cursor: pointer;
+	z-index: 4;
 }
-/* ------------- header - down ------------- */
-.header__down {
-	background-color: #f8f8f8;
-}
-.down__menu {
+/* ------------- header - bottom ------------- */
+.bottom-header__menu {
 	display: flex;
 	align-items: center;
+	min-width: 930px;
 	padding-left: 270px;
 	background-color: #ffffff;
+	color: #000000;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
-.down__list {
+.bottom-header__list {
 	display: flex;
 	gap: 0 20px;
 	margin-right: 25px;
 	padding-top: 3px;
 	user-select: none;
 }
-.down__item {
+.bottom-header__item {
 	text-transform: uppercase;
 	font-weight: 700;
 	border-bottom: 1px solid #00000000;
 	transition: all 0.4s;
 }
-.down__item:hover {
+.bottom-header__item:hover {
 	border-bottom: 1px solid #000000ff;
 	transition: all 0.4s;
 }
-.down__item:active {
+.bottom-header__item:active {
 	color: #858585;
 	border-bottom: 1px solid #858585;
 }
@@ -184,6 +189,7 @@ body {
 	font-size: 15px;
 	font-weight: 300;
 	border-bottom: 1px solid #00000000;
+	z-index: 2;
 }
 
 .phone::before {
@@ -197,6 +203,7 @@ body {
 	height: 20px;
 	left: -24px;
 	top: 0;
+	z-index: 2;
 }
 .phone__ico {
 	width: 24px;
@@ -213,10 +220,9 @@ body {
 }
 /* ------------------- main ------------------- */
 .promo {
-	padding-top: 30px;
+	padding-top: 90px;
 	background-color: #f8f8f8;
 	padding-bottom: 35px;
-	/* margin-bottom: 35px; */
 }
 
 .inner-promo__first {
