@@ -1214,3 +1214,86 @@ body {
 	letter-spacing: 0.05em;
 	padding-top: 0.2em;
 }
+/* ------------------- measuring  ------------------- */
+.measuring {
+	padding-top: 60px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+.measuring__title {
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.measuring__subtitle {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 35px;
+	max-width: 610px;
+}
+.form-measuring {
+	margin-bottom: 20px;
+}
+.form-measuring__block {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	gap: 50px 50px;
+}
+.form-measuring__box {
+	display: flex;
+	flex: 0 1 200px;
+	gap: 0 20px;
+	align-items: flex-start;
+}
+.form-measuring__img {
+	flex-basis: 0 0 100px;
+	height: 180px;
+	object-fit: cover;
+}
+.form-measuring__img--long {
+	height: 345px;
+}
+.form-measuring__box-input {
+	text-align: left;
+	flex: 0 0 130px;
+	margin-top: 25px;
+}
+.form-measuring__label {
+	text-align: left;
+	flex: 0 0 130px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.form-measuring__label--block {
+	display: block;
+}
+.form-measuring__input {
+	width: 80px;
+	height: 50px;
+	font-size: 18px;
+	margin-right: 8px;
+	margin-top: 8px;
+	padding: 5px 10px;
+	text-align: left;
+	border: 2px solid #919191;
+	outline: none;
+}
+.form-measuring__input:focus {
+	box-shadow: 0 0 4px 4px #0247be;
+}
+.form-measuring__dimension {
+	font-size: 16px;
+	text-transform: none;
+}
+.form-measuring__error {
+	padding: 5px 0;
+	color: red;
+	margin-bottom: 20px;
+}
+.form-measuring__contacts {
+}
