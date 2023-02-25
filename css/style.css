@@ -20,7 +20,7 @@ body {
 	color: #000000;
 	font-size: 14px;
 }
-.wrapper{
+.wrapper {
 	position: relative;
 	overflow: hidden;
 }
@@ -1170,4 +1170,47 @@ body {
 }
 .invisible {
 	display: none;
+}
+/* ------------------- page measurements  ------------------- */
+/* ------------------- promo-measurements  ------------------- */
+.promo-measure__inner {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('../images/sewing.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	padding-top: 80px;
+}
+.breadcrumbs {
+	color: #ffffff;
+}
+.breadcrumbs__link {
+	margin-right: 5px;
+	text-decoration: underline transparent;
+}
+.breadcrumbs__link:hover {
+	text-decoration: underline;
+	transition: all 0.7s;
+}
+.breadcrumbs__points {
+	margin-right: 5px;
+}
+.measurements__breadcrumbs {
+	margin-bottom: 65px;
+}
+.title-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f6f6f6;
+	width: 370px;
+	height: 70px;
+	margin: 0 auto;
+}
+.title-page {
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	padding-top: 0.2em;
 }
