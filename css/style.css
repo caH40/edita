@@ -1214,3 +1214,221 @@ body {
 	letter-spacing: 0.05em;
 	padding-top: 0.2em;
 }
+/* ------------------- measuring  ------------------- */
+.measuring {
+	padding-top: 60px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+.measuring__title {
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.measuring__subtitle {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 35px;
+	max-width: 610px;
+}
+.form-measuring {
+}
+.form-measuring__block {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	gap: 50px 50px;
+	margin-bottom: 50px;
+}
+.form-measuring__box {
+	display: flex;
+	flex: 0 1 200px;
+	gap: 0 20px;
+	align-items: flex-start;
+}
+.form-measuring__img {
+	flex-basis: 0 0 100px;
+	height: 180px;
+	object-fit: cover;
+}
+.form-measuring__img--long {
+	height: 345px;
+}
+.form-measuring__box-input {
+	text-align: left;
+	flex: 0 0 130px;
+	margin-top: 25px;
+}
+.form-measuring__label {
+	text-align: left;
+	flex: 0 0 130px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.form-measuring__label--block {
+	display: block;
+}
+.form-measuring__input {
+	width: 80px;
+	height: 50px;
+	font-size: 18px;
+	margin-right: 8px;
+	margin-top: 8px;
+	padding: 5px 10px;
+	text-align: left;
+	border: 2px solid #919191;
+	outline: none;
+}
+.form-measuring__input:focus {
+	box-shadow: 0 0 3px 2px #0247be;
+}
+.form-measuring__dimension {
+	font-size: 16px;
+	text-transform: none;
+}
+.form-measuring__error {
+	padding: 5px 0;
+	color: red;
+	margin-bottom: 20px;
+}
+/* ------------------- measuring-contacts  ------------------- */
+.contacts-measuring {
+	width: 100%;
+	max-width: 870px;
+	min-height: 515px;
+	padding: 50px 90px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.1;
+	letter-spacing: 0.01em;
+	background: linear-gradient(270deg, #253859 0%, #395585 49.98%, #253859 100%);
+}
+.contacts-measuring__block {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	width: 100%;
+}
+.contacts-measuring__input-box {
+	flex: 0 1 370px;
+	min-width: 290px;
+	margin-bottom: 10px;
+}
+.contacts-measuring__checkbox-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.contacts-measuring__checkbox {
+	margin-right: 10px;
+}
+.contacts-measuring__label {
+	flex: 0 1 260px;
+	min-width: 200px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.contacts-measuring__input {
+	font-family: Circe;
+	font-size: 14px;
+	color: #ffffff;
+	letter-spacing: 0.04em;
+	width: 100%;
+	height: 50px;
+	outline: none;
+	border: 1px solid #8e9db8;
+	padding: 10px 15px;
+	background-color: transparent;
+}
+.contacts-measuring__input::placeholder {
+	font-family: Circe;
+	font-size: 12px;
+	color: #ffffff;
+}
+.textarea {
+	height: auto;
+}
+.contacts-measuring__input:focus {
+	box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+.contacts-measuring__input-file {
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	line-height: 0px;
+}
+.contacts-measuring__file-box {
+	flex: 0 1 185px;
+	margin-right: 185px;
+}
+.contacts-measuring__button-file {
+	width: 100%;
+	max-width: 185px;
+	height: 50px;
+	border: 1px dashed #8e9db8;
+	color: #ffffff;
+	background-color: transparent;
+	letter-spacing: 0.05em;
+	padding: 10px;
+	cursor: pointer;
+}
+.contacts-measuring__button-file:hover {
+	border: 1px dashed #ffffff;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: all 0.7s;
+}
+.contacts-measuring__consent-link {
+	font-family: Circe;
+	font-size: 14px;
+	line-height: 1.2;
+	padding-top: 4px;
+	color: #ffffff;
+	text-decoration: underline transparent;
+}
+.contacts-measuring__consent-link span {
+	text-decoration: underline;
+}
+.contacts-measuring__consent-link:hover {
+	text-decoration: underline;
+	transition: all 0.4s;
+}
+.contacts-measuring__button {
+	max-width: 370px;
+	width: 100%;
+	margin: 0 auto;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 15px;
+	height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	background-color: #cc2e37;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+.contacts-measuring__button:hover {
+	background-color: #ff404a;
+	transition: all 0.4s;
+}
+.contacts-measuring__button:active {
+	background-color: #cc2e37;
+}
+.contacts-measuring__error {
+	left: 320px;
+	color: red;
+	text-align: left;
+}

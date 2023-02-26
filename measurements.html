@@ -93,14 +93,196 @@
 					<div class="promo-measure__inner">
 						<div class="container">
 							<div class="breadcrumbs measurements__breadcrumbs">
-								<a class="breadcrumbs__link" href="#">Главная</a>
+								<a class="breadcrumbs__link" href="/index.html">Главная</a>
 								<span class="breadcrumbs__points">&#183;&#183;</span>
-								<a class="breadcrumbs__link" href="#">Шуба на заказ</a>
+								<span class="breadcrumbs__last" href="#">Шуба на заказ</span>
 							</div>
 							<div class="title-box">
 								<h1 class="title-page">ШУБЫ НА ЗАКАЗ</h1>
 							</div>
 						</div>
+					</div>
+				</section>
+
+				<section class="measuring">
+					<div class="container">
+						<h2 class="measuring__title">Снятие мерок</h2>
+						<h3 class="measuring__subtitle">
+							Для более точной оценки сроков пошива и стоимости изделия на заказ, предлагаем вам
+							заполнить следующие данные:
+						</h3>
+						<form class="measuring__form form-measuring">
+							<div class="form-measuring__block">
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ВЫСОТА ГРУДИ
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="chestHeight"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ВЫСОТА ДО ТАЛИИ СПЕРЕДИ
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="waistHeight"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ШИРИНА СПИНЫ
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="backWidth"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ШИРИНА ПЛЕЧА
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="shoulderWidth"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ОБХВАТ ГРУДИ
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="chestGirth"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ОБХВАТ БЕДЕР
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="hipGirth"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img class="form-measuring__img" src="./images/measurements/body1.png" alt="body" />
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label">
+											ДЛИНА СПИНЫ ДО ТАЛИИ
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="backLength"></div>
+									</div>
+								</div>
+
+								<div class="form-measuring__box">
+									<img
+										class="form-measuring__img form-measuring__img--long"
+										src="./images/measurements/body8.png"
+										alt="body"
+									/>
+									<div class="form-measuring__box-input">
+										<label class="form-measuring__label form-measuring__label--block">
+											ДЛИНА ИЗДЕЛИЯ
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="backProduct"></div>
+
+										<label class="form-measuring__label form-measuring__label--block">
+											ДЛИНА РУКАВА
+											<input type="number" class="form-measuring__input" />
+											<span class="form-measuring__dimension">см</span>
+										</label>
+										<div class="form-measuring__error" id="handLength"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-measuring__contacts contacts-measuring">
+								<div class="contacts-measuring__block">
+									<label for="name" class="contacts-measuring__label">КАК К ВАМ ОБРАЩАТЬСЯ?</label>
+									<div class="contacts-measuring__input-box">
+										<input
+											type="text"
+											name="name"
+											placeholder="Ваше имя*"
+											class="contacts-measuring__input"
+										/>
+										<div class="contacts-measuring__error" id="fio"></div>
+									</div>
+
+									<label for="phone" class="contacts-measuring__label">
+										ДЛЯ ДАЛЬНЕЙШЕГО ОБЩЕНИЯ НАШЕГО СПЕЦИАЛИСТА С ВАМИ УКАЖИТЕ СВОИ КОНТАКТЫ
+									</label>
+									<div class="contacts-measuring__input-box">
+										<input
+											type="tel"
+											name="phone"
+											placeholder="+7(__) ___ - __ - __*"
+											class="contacts-measuring__input"
+										/>
+										<div class="contacts-measuring__error" id="phoneValidate"></div>
+									</div>
+
+									<label for="description" class="contacts-measuring__label">
+										ВЫ МОЖЕТЕ УКАЗАТЬ ЖЕЛАЕМЫЙ РАЗМЕР, ЦВЕТ, ВИД МЕХА ИЛИ ЗАДАТЬ НАМ ЛЮБОЙ ИНТЕРЕСУЮЩИЙ
+										ВАС ВОПРОС
+									</label>
+									<div class="contacts-measuring__input-box">
+										<textarea
+											type="text"
+											placeholder="Ваш комментарий"
+											rows="6"
+											name="description"
+											class="contacts-measuring__input textarea"
+										></textarea>
+									</div>
+
+									<label for="photo" class="contacts-measuring__label">
+										ПО ЖЕЛАНИЮ, ВЫ МОЖЕТЕ ПРИКРЕПИТЬ СВОЕ ФОТО ИЛИ КАРТИНКУ С ФАСОНОМ ИЗДЕЛИЯ
+									</label>
+									<div class="contacts-measuring__file-box">
+										<input
+											type="file"
+											name="photo"
+											accept="image/*"
+											class="contacts-measuring__input-file"
+										/>
+										<button class="contacts-measuring__button-file">Прикрепить фото</button>
+									</div>
+								</div>
+								<div class="contacts-measuring__checkbox-box">
+									<input type="checkbox" name="consent" class="contacts-measuring__checkbox" />
+									<a class="contacts-measuring__consent-link" href="#">
+										<span>Согласие</span> с политикой персональных данных
+									</a>
+								</div>
+								<button type="submit" class="contacts-measuring__button">ЗАКАЗАТЬ ПОШИВ</button>
+							</div>
+						</form>
 					</div>
 				</section>
 
@@ -142,7 +324,9 @@
 								<li class="sitemap__item"><a class="sitemap__link" href="#">ВОПРОС-ОТВЕТ</a></li>
 								<li class="sitemap__item"><a class="sitemap__link" href="#">ОТЗЫВЫ</a></li>
 								<li class="sitemap__item"><a class="sitemap__link" href="#">КОНТАКТЫ</a></li>
-								<li class="sitemap__item"><a class="sitemap__link" href="#">ПОШИВ НА ЗАКАЗ</a></li>
+								<li class="sitemap__item">
+									<a class="sitemap__link" href="/measurements.html">ПОШИВ НА ЗАКАЗ</a>
+								</li>
 								<li class="sitemap__item">
 									<a class="sitemap__link sitemap__link--red" href="#">СКИДКИ</a>
 								</li>
