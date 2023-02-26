@@ -1369,12 +1369,14 @@ body {
 	line-height: 0px;
 }
 .contacts-measuring__file-box {
+	display: flex;
 	flex: 0 1 185px;
 	margin-right: 185px;
 }
 .contacts-measuring__button-file {
 	width: 100%;
 	max-width: 185px;
+	min-width: 140px;
 	height: 50px;
 	border: 1px dashed #8e9db8;
 	color: #ffffff;
