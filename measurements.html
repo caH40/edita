@@ -222,57 +222,58 @@
 							</div>
 
 							<div class="form-measuring__contacts contacts-measuring">
-								<div class="contacts-measuring__input-box">
+								<div class="contacts-measuring__block">
 									<label for="name" class="contacts-measuring__label">КАК К ВАМ ОБРАЩАТЬСЯ?</label>
-									<input
-										type="text"
-										name="name"
-										placeholder="Ваше имя*"
-										class="contacts-measuring__input"
-									/>
-									<div class="contacts-measuring__error" id="fio">проверка валидации</div>
-								</div>
+									<div class="contacts-measuring__input-box">
+										<input
+											type="text"
+											name="name"
+											placeholder="Ваше имя*"
+											class="contacts-measuring__input"
+										/>
+										<div class="contacts-measuring__error" id="fio"></div>
+									</div>
 
-								<div class="contacts-measuring__input-box">
 									<label for="phone" class="contacts-measuring__label">
 										ДЛЯ ДАЛЬНЕЙШЕГО ОБЩЕНИЯ НАШЕГО СПЕЦИАЛИСТА С ВАМИ УКАЖИТЕ СВОИ КОНТАКТЫ
 									</label>
-									<input
-										type="tel"
-										name="phone"
-										placeholder="+7(__) ___ - __ - __*"
-										class="contacts-measuring__input"
-									/>
-									<div class="contacts-measuring__error" id="phoneValidate">проверка валидации</div>
-								</div>
+									<div class="contacts-measuring__input-box">
+										<input
+											type="tel"
+											name="phone"
+											placeholder="+7(__) ___ - __ - __*"
+											class="contacts-measuring__input"
+										/>
+										<div class="contacts-measuring__error" id="phoneValidate"></div>
+									</div>
 
-								<div class="contacts-measuring__input-box">
 									<label for="description" class="contacts-measuring__label">
 										ВЫ МОЖЕТЕ УКАЗАТЬ ЖЕЛАЕМЫЙ РАЗМЕР, ЦВЕТ, ВИД МЕХА ИЛИ ЗАДАТЬ НАМ ЛЮБОЙ ИНТЕРЕСУЮЩИЙ
 										ВАС ВОПРОС
 									</label>
-									<textarea
-										type="text"
-										placeholder="Ваш комментарий"
-										rows="6"
-										name="description"
-										class="contacts-measuring__input textarea"
-									></textarea>
-								</div>
+									<div class="contacts-measuring__input-box">
+										<textarea
+											type="text"
+											placeholder="Ваш комментарий"
+											rows="6"
+											name="description"
+											class="contacts-measuring__input textarea"
+										></textarea>
+									</div>
 
-								<div class="contacts-measuring__input-box">
 									<label for="photo" class="contacts-measuring__label">
 										ПО ЖЕЛАНИЮ, ВЫ МОЖЕТЕ ПРИКРЕПИТЬ СВОЕ ФОТО ИЛИ КАРТИНКУ С ФАСОНОМ ИЗДЕЛИЯ
 									</label>
-									<input
-										type="file"
-										name="photo"
-										accept="image/*"
-										class="contacts-measuring__input-file"
-									/>
-									<button class="contacts-measuring__button-file">Прикрепить фото</button>
+									<div class="contacts-measuring__file-box">
+										<input
+											type="file"
+											name="photo"
+											accept="image/*"
+											class="contacts-measuring__input-file"
+										/>
+										<button class="contacts-measuring__button-file">Прикрепить фото</button>
+									</div>
 								</div>
-
 								<div class="contacts-measuring__checkbox-box">
 									<input type="checkbox" name="consent" class="contacts-measuring__checkbox" />
 									<a class="contacts-measuring__consent-link" href="#">

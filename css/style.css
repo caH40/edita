@@ -1308,12 +1308,17 @@ body {
 	letter-spacing: 0.01em;
 	background: linear-gradient(270deg, #253859 0%, #395585 49.98%, #253859 100%);
 }
-.contacts-measuring__input-box {
+.contacts-measuring__block {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	margin-bottom: 15px;
+	align-content: flex-start;
 	width: 100%;
+}
+.contacts-measuring__input-box {
+	flex: 0 1 370px;
+	min-width: 290px;
+	margin-bottom: 10px;
 }
 .contacts-measuring__checkbox-box {
 	display: flex;
@@ -1330,15 +1335,14 @@ body {
 	min-width: 200px;
 	text-align: left;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .contacts-measuring__input {
-	flex: 0 1 370px;
 	font-family: Circe;
 	font-size: 14px;
 	color: #ffffff;
 	letter-spacing: 0.04em;
-	min-width: 290px;
+	width: 100%;
 	height: 50px;
 	outline: none;
 	border: 1px solid #8e9db8;
@@ -1364,8 +1368,13 @@ body {
 	overflow: hidden;
 	line-height: 0px;
 }
-.contacts-measuring__button-file {
+.contacts-measuring__file-box {
 	flex: 0 1 185px;
+	margin-right: 185px;
+}
+.contacts-measuring__button-file {
+	width: 100%;
+	max-width: 185px;
 	height: 50px;
 	border: 1px dashed #8e9db8;
 	color: #ffffff;
@@ -1373,7 +1382,6 @@ body {
 	letter-spacing: 0.05em;
 	padding: 10px;
 	cursor: pointer;
-	margin-right: 185px;
 }
 .contacts-measuring__button-file:hover {
 	border: 1px dashed #ffffff;
@@ -1420,7 +1428,6 @@ body {
 	background-color: #cc2e37;
 }
 .contacts-measuring__error {
-	bottom: -13px;
 	left: 320px;
 	color: red;
 	text-align: left;
