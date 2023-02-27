@@ -141,7 +141,7 @@ body {
 	color: #858585;
 	border-bottom: 1px solid #858585;
 }
-.header__button {
+.header__link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -153,22 +153,23 @@ body {
 	line-height: 1.2;
 	text-transform: uppercase;
 	margin: 5px 5px 5px 0px;
-	padding: 2px 10px;
+	padding: 4px 10px;
 	cursor: pointer;
 	border: none;
 	outline: none;
 	user-select: none;
+	text-align: center;
 }
-.header__button:hover {
+.header__link:hover {
 	background-color: #c7c7c7;
 	transition: all 0.4s;
 }
-.header__button:active {
+.header__link:active {
 	background-color: #c7c7c755;
 }
 .important {
 	flex-basis: 160px;
-	padding: 2px 18px;
+	padding: 4px 15px;
 	background-color: #cc2e37;
 	color: #ffffff;
 }
